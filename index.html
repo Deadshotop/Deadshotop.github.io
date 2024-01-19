@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Петренко Андрей - Визитка</title>
+</head>
+<body>
+
+    <header>
+        <h1>Петренко Андрей P33201</h1>
+        <nav>
+            <ul>
+                <li><a href="/index.html">Главная</a></li>
+                <li><a href="/portfolio.html">Портфолио</a></li>
+                <li><a href="https://github.com/Deadshotop">Github</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="about">
+            <h2>Обо мне</h2>
+            <img class="profile-image" src="img/profile.jpg">
+            <p>Всем привет!</p>
+            <p>Я Петренко Андрей из группы P33201. 
+                Напишу вкратце о себе и своих инетерсах. Сейчас учусь в ИТМО на направлении Нейротехнологии, однако начинал свой путь я с другого направления: СППО (системное прикладное программное обеспечение). 
+                Параллельно с учебой я занимаюсь криптой и изучаю ее. А также занимаюсь спортом. В ИТМО я играю за сборную по регби, а также в этом году принял участие во внутривузовском турнире по футболу, в котором наш факультет одержал победу.
+                В свободное от учебы, спорта и работы время люблю проводить время с друзьями и ходить на музыкальные концерты. Во вкладке "Портфолио" вы можете найти небольшое видео про мой лайфстайл. 
+            </p>
+            <p>Надеюсь вам было интересно узнать что-то обо мне:)</p>
+        </section>
+
+        <section id="portfolio">
+            <h2>Слайд-шоу</h2>
+            <div class="slider-container">
+                <div class="slider">
+                    <img src="img/image1.jpg">
+                    <img src="img/image2.jpg">
+                    <img src="img/image3.jpg">
+                    <img src="img/image4.jpg">
+                    <img src="img/image5.jpg">
+                </div>
+            </div>
+            <div class="slider-controls">
+                <button onclick="prevSlide()"><</button>
+                <button onclick="nextSlide()">></button>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2023 Deadshotop. Все права защищены.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
