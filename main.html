@@ -36,16 +36,16 @@
             <h2>Слайд-шоу</h2>
             <div class="slider-container">
                 <div class="slider">
-                    <img src="img/image1.jpg">
-                    <img src="img/image2.jpg">
-                    <img src="img/image3.jpg">
-                    <img src="img/image4.jpg">
-                    <img src="img/image5.jpg">
+                    <img src="img/photo1.jpg">
+                    <img src="img/photo2.jpg">
+                    <img src="img/photo3.jpg">
+                    <img src="img/photo4.jpg">
                 </div>
             </div>
             <div class="slider-controls">
-                <button onclick="prevSlide()"><</button>
-                <button onclick="nextSlide()">></button>
+                <button onclick="sliderModule.prevSlide()"><</button>
+                <button id="workAutoSlide" onclick="sliderModule.workAutoSlide()">Остановить автослайд</button>
+                <button onclick="sliderModule.nextSlide()">></button>
             </div>
         </section>
     </main>
