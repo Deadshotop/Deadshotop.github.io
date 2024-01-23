@@ -39,7 +39,8 @@ section {
     position: relative;
     overflow: hidden;
     margin: 20px 0;
-    max-width: 400px;
+    max-width: 738px;
+    max-height: 728px;
     margin: 0 auto;
 }
 
