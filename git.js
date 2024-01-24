@@ -1,6 +1,6 @@
 document.addEventListener('DOMContentLoaded', function () {
     const githubUsername = 'Deadshotop';
-    const githubToken = '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';
+    const githubToken = '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';
     const githubProjectsList = document.getElementById('github-projects');
 
     function getGitHubProjects() {
