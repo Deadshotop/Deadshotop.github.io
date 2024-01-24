@@ -24,6 +24,10 @@ nav li {
     margin-right: 20px;
 }
 
+nav ul li:hover a {
+    color: #ffcc009f;
+}
+
 nav a {
     color: #fff;
     text-decoration: none;
@@ -103,4 +107,14 @@ footer {
     color: #fff;
     text-align: center;
     padding: 10px;
+}
+
+@media only screen and (max-width: 600px) {
+    .profile-image {
+        max-width: 100%;
+    }
+
+    .slider-controls button {
+        padding: 8px 15px;
+    }
 }
