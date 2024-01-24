@@ -1,0 +1,51 @@
+#projects {
+    margin-top: 40px;
+}
+
+#projects h2 {
+    color: #333;
+}
+
+#projects p {
+    color: #666;
+}
+
+#github-projects {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+
+.project-item {
+    flex-basis: calc(50% - 20px);
+    background-color: #f4f4f4;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 8px;
+    box-sizing: border-box;
+    transition: background-color 0.3s;
+}
+
+.project-item:hover {
+    background-color: #e0e0e0;
+}
+
+.project-item h3 {
+    color: #333;
+    margin-top: 0;
+}
+
+.project-item p {
+    color: #666;
+}
+
+.project-item a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+.project-item a:hover {
+    text-decoration: underline;
+}
