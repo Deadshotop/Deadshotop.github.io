@@ -8,6 +8,7 @@ const sliderModule = (function () {
     };
   
     function nextSlide() {
+      stopAutoSlide();
       if (!privateState.isSliding) {
         privateState.isSliding = true;
         privateState.currentIndex = (privateState.currentIndex + 1) % privateState.sliderItems.length;
@@ -16,6 +17,7 @@ const sliderModule = (function () {
     }
   
     function prevSlide() {
+      stopAutoSlide();  
       if (!privateState.isSliding) {
         privateState.isSliding = true;
         privateState.currentIndex = (privateState.currentIndex - 1 + privateState.sliderItems.length) % privateState.sliderItems.length;
@@ -28,6 +30,7 @@ const sliderModule = (function () {
       privateState.slider.style.transform = `translateX(${nextTranslate}%)`;
       setTimeout(() => {
         privateState.isSliding = false;
+        startAutoSlide();  
       }, 500);
     }
   
